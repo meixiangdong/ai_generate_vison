@@ -1,0 +1,40 @@
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.log
+logs/
+data/
+outputs/
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.coverage
+.pytest_cache/
+
+# Node / Frontend
+node_modules/
+web/node_modules/
+dist/
+web/dist/
+build/
+web/build/
+
+# Env & local configs
+.env
+.env.local
+
+# Assets (大文件可用 LFS；默认忽略原始素材，保留模板与字体)
+assets/videos/
+assets/images/
+assets/bgm/
+assets/sfx/
+# 保留模板与字体（建议仅提交小体积与有授权的）
+!assets/templates/**
+!assets/fonts/**
+!assets/README.md
